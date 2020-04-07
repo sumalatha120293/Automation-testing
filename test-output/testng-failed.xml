@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Gmail automation]">
+  <test thread-count="5" name="Gmail(failed)">
+    <parameter name="signupurl" value="https://www.google.com/"/>
+    <classes>
+      <class name="com.test.gmail.Gmail_Registration">
+        <methods>
+          <include name="setup"/>
+          <include name="Registration" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.test.gmail.Gmail_Registration -->
+    </classes>
+  </test> <!-- Gmail(failed) -->
+</suite> <!-- Failed suite [Gmail automation] -->
