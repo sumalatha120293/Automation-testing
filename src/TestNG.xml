@@ -8,7 +8,7 @@
     <classes>
     		<class name="com.test.gmail.Gmail_Title" />
            	 <class name="com.test.gmail.Gmail_Registration" />
-           	 <class name="com.testutility.testutil" />
+           #	 <class name="com.testutility.testutil" />
        
        
     </classes>
